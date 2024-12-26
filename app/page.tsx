@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, Building2, Calendar, Mail, MapPin, User, Dumbbell, Target, Users } from 'lucide-react'
-import Image from "next/image"
 
 export default function Page() {
   return (
