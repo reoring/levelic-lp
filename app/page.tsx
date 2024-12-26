@@ -1,6 +1,11 @@
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { ArrowRight, Building2, Calendar, Mail, MapPin, User, Dumbbell, Target, Users } from 'lucide-react'
+import { HealthManagement } from '@/components/sections/HealthManagement';
+import { CorporateChallenges } from '@/components/sections/CorporateChallenges';
+import { Benefits } from '@/components/sections/Benefits';
+import { ServiceFeatures } from '@/components/sections/ServiceFeatures';
+import { ServicePlans } from '@/components/sections/ServicePlans';
 
 export default function Page() {
   return (
@@ -105,6 +110,13 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      {/* 法人向けサービスセクション */}
+      <HealthManagement />
+      <CorporateChallenges />
+      <Benefits />
+      <ServiceFeatures />
+      <ServicePlans />
 
       {/* 会社概要セクション */}
       <section className="py-24 bg-gray-50">
