@@ -19,19 +19,24 @@ const PriceRow = ({ members, totalPrice, pricePerPerson }: PriceRowProps) => (
 export const SemiGroupPlan = () => {
   const prices: PriceRowProps[] = [
     {
-      members: '2名',
+      members: '1名',
       totalPrice: '￥14,000',
-      pricePerPerson: '￥7,000',
+      pricePerPerson: '￥14,000',
+    },
+    {
+      members: '2名',
+      totalPrice: '￥24,000',
+      pricePerPerson: '￥12,000',
     },
     {
       members: '3名',
-      totalPrice: '￥19,500',
-      pricePerPerson: '￥6,500',
+      totalPrice: '￥33,000',
+      pricePerPerson: '￥11,000',
     },
     {
       members: '4名',
-      totalPrice: '￥24,000',
-      pricePerPerson: '￥6,000',
+      totalPrice: '￥40,000',
+      pricePerPerson: '￥10,000',
     },
   ];
 
@@ -39,38 +44,14 @@ export const SemiGroupPlan = () => {
     <div>
       <h3 className="text-2xl font-bold mb-8 flex items-center gap-3">
         <Users2 className="h-6 w-6 text-blue-600" />
-        出張セミグループトレーニング
+        パーソナルトレーニング・ストレッチ
       </h3>
       <Card className="p-6 transform hover:-translate-y-1 transition-all border-2 hover:border-blue-500">
         <div className="mb-8">
           <h4 className="text-lg font-semibold mb-4 flex items-center gap-2">
             <Clock className="h-5 w-5 text-blue-600" />
-            70分
+            60〜90分
           </h4>
-          <div className="space-y-4 text-gray-600 bg-blue-50/50 p-6 rounded-lg backdrop-blur-sm">
-            <p>マンツーマントレーニングはハードルが高いと感じる方</p>
-            <p>一人じゃ運動が続かなかった方にオススメ！</p>
-          </div>
-        </div>
-
-        <div className="mb-8">
-          <div className="bg-gradient-to-r from-blue-500 to-emerald-500 p-0.5 rounded-lg mb-8">
-            <div className="bg-white p-6 rounded-lg text-center">
-              <p className="font-semibold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-emerald-600">
-                お手頃価格で<br />始めやすい！
-              </p>
-            </div>
-          </div>
-          
-          <div className="space-y-4 text-gray-600">
-            <p className="mb-4">
-              20人〜30人のグループレッスンですと、お客様個別指導が難しくなる為、体力レベルや運動神経に合わせてレッスン内容を変えるのが難しくなります。
-            </p>
-            <p>
-              セミグループレッスンですと個別でアドバイスが可能なので、グループレッスンよりしっかりトレーニングをしたい方にオススメです。
-              マンツーマントレーニングより、お手頃価格なので始めやすいのも特徴です。
-            </p>
-          </div>
         </div>
 
         <div className="mb-8">
@@ -104,7 +85,7 @@ export const SemiGroupPlan = () => {
           <p>※全て税込価格</p>
           <p>※出張費込みの料金となります</p>
           <p>※ヨガマットなどの備品は貴社にてご用意をお願い致します。</p>
-          <p>※レッスン自体は70分ですが、前後の準備・片付けで合わせて約100分を目安に確保下さいますようお願い致します。</p>
+          <p>※レッスンとは別に準備・片付けで合わせて前後10分はお時間を確保下さいますようお願い致します。</p>
         </div>
       </Card>
     </div>

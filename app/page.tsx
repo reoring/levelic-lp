@@ -19,16 +19,13 @@ export default function Page() {
               🎮 LEVEL UP YOUR LIFE
             </div>
             <h1 className="mb-6 text-4xl font-bold md:text-7xl">
-              ゲームを超えて、<br className="md:hidden" />
+              ゲームの世界ではなく、<br className="md:hidden" />
               <span className="text-gradient bg-gradient-to-r from-blue-400 to-emerald-400">現実で成長する</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg text-gray-300 md:text-xl">
               ゲームのキャラクターではなく、あなた自身の成長を追求する。
               フィットネスを通じて、楽しみながら理想の自分へレベルアップ。
             </p>
-            <Button className="mt-8 bg-gradient-to-r from-blue-500 to-emerald-500 hover:from-blue-600 hover:to-emerald-600" size="lg">
-              冒険を始める <ArrowRight className="ml-2 h-4 w-4" />
-            </Button>
           </div>
         </div>
       </section>
@@ -36,13 +33,6 @@ export default function Page() {
       {/* コンセプトセクション */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto max-w-7xl px-4">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold md:text-4xl mb-4">ゲームから生まれた<br className="md:hidden" />新しい成長の形</h2>
-            <p className="text-gray-600 max-w-2xl mx-auto">
-              ゲームのキャラクターのステータス上げに没頭した経験から、
-              現実世界での自己成長を追求するという新しい挑戦が始まりました。
-            </p>
-          </div>
           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="p-6 rounded-lg bg-white shadow-lg transform hover:-translate-y-1 transition-all">
               <div className="w-12 h-12 bg-blue-100 rounded-lg flex items-center justify-center mb-4">
@@ -93,17 +83,6 @@ export default function Page() {
                 <h3 className="mb-4 text-xl font-semibold">オフィスジム導入支援</h3>
                 <p className="text-gray-600">
                   オフィス内で気軽に始められる健康増進プログラム。従業員の健康スコアを楽しく向上させます。
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="transform hover:-translate-y-1 transition-all border-2 hover:border-purple-500">
-              <CardContent className="p-6">
-                <div className="status-bar mb-4 h-2 bg-gray-200 rounded-full overflow-hidden">
-                  <div className="h-full w-[90%] bg-gradient-to-r from-purple-500 to-blue-500"></div>
-                </div>
-                <h3 className="mb-4 text-xl font-semibold">トレーナー育成</h3>
-                <p className="text-gray-600">
-                  モチベーションを引き出すスキルを持つ、次世代のトレーナーを育成します。
                 </p>
               </CardContent>
             </Card>
@@ -168,11 +147,11 @@ export default function Page() {
         <div className="container mx-auto max-w-7xl px-4 text-center">
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">あなたの冒険をサポートします</h2>
           <p className="mx-auto mb-8 max-w-2xl text-gray-300">
-            新しい成長の形に興味をお持ちの方は、お気軽にお問い合わせください。
+            弊社のサービスにご興味をお持ちの方は、お気軽にお問い合わせください。
           </p>
           <Button className="bg-white text-blue-900 hover:bg-gray-100" size="lg">
             <Mail className="mr-2 h-4 w-4" />
-            お問い合わせはこちら
+            support@levelic.com
           </Button>
         </div>
       </section>

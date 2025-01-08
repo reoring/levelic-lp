@@ -55,17 +55,10 @@ export const GroupLessonPlan = () => {
   ];
 
   const smallGroupPrices = [
-    { course: '回数券コース 4回', price: '￥168,000', pricePerSession: '￥42,000' },
-    { course: '回数券コース 8回', price: '￥312,000', pricePerSession: '￥39,000' },
-    { course: '回数券コース 12回', price: '￥432,000', pricePerSession: '￥36,000' },
-    { course: '都度利用コース 1回', price: '￥45,000', pricePerSession: '1回あたり' },
-  ];
-
-  const largeGroupPrices = [
-    { course: '回数券コース 4回', price: '￥200,000', pricePerSession: '￥50,000' },
-    { course: '回数券コース 8回', price: '￥360,000', pricePerSession: '￥45,000' },
-    { course: '回数券コース 12回', price: '￥480,000', pricePerSession: '￥40,000' },
-    { course: '都度利用コース 1回', price: '￥55,000', pricePerSession: '1回あたり' },
+    { course: '回数券コース 4回', price: '￥56,000', pricePerSession: '￥14,000' },
+    { course: '回数券コース 8回', price: '￥100,000', pricePerSession: '￥12,500' },
+    { course: '回数券コース 12回', price: '￥120,000', pricePerSession: '￥10,000' },
+    { course: '都度利用コース 1回', price: '￥15,000', pricePerSession: '￥15,000' },
   ];
 
   return (
@@ -81,11 +74,6 @@ export const GroupLessonPlan = () => {
               <Clock className="h-5 w-5 text-blue-600" />
               60分
             </h4>
-            <div className="space-y-4 text-gray-600 bg-blue-50/50 p-6 rounded-lg backdrop-blur-sm">
-              <p>スタッフの運動不足解消の為、定期的にクラスを開催してほしい方</p>
-              <p>会社の施設内でできるトレーニングクラスをしたい方</p>
-              <p>会社のイベントで誰でも参加できる運動クラスを開催してほしい方</p>
-            </div>
           </div>
 
           <div className="mb-8">
@@ -105,8 +93,7 @@ export const GroupLessonPlan = () => {
           </div>
 
           <div className="space-y-8">
-            <PriceTable title="5〜19名様向け" prices={smallGroupPrices} />
-            <PriceTable title="20〜35名様向け" prices={largeGroupPrices} />
+            <PriceTable title="2〜4名様向け" prices={smallGroupPrices} />
           </div>
 
           <div className="mt-8 space-y-2 text-sm text-gray-500 bg-gray-50/80 p-6 rounded-lg backdrop-blur-sm">
