@@ -4,13 +4,13 @@ import { Check } from 'lucide-react';
 
 export const ServiceFeatures = () => {
   const features = [
-    'コンディショニングでカラダの根本から変えられるトレーニングメニューが得意',
+    'カラダの根本から変えられるトレーニングメニューが得意',
     '運動初心者の方でも安心・安全なトレーニングを提供',
     '食事・睡眠・ストレス改善等の生活習慣改善のアドバイス',
-    '10〜80代まで幅広い年齢の方へのセッション経験が豊富',
-    'オンライン・出張・店舗と企業様のご要望によって対応可能',
+    '10〜60代まで幅広い年齢の方へのセッション経験が豊富',
+    'オンライン・出張など企業様のご要望によって対応可能',
     'マンツーマン・セミグループレッスン・グループレッスン対応可能',
-    '有資格＆経験豊富なトレーナーが在籍（女性トレーナー、男性トレーナー共に在籍）'
+    '有資格＆経験豊富なトレーナーが在籍'
   ];
 
   return (
@@ -22,11 +22,7 @@ export const ServiceFeatures = () => {
           <Card className="transform hover:-translate-y-1 transition-all border-2 hover:border-blue-500 backdrop-blur-sm bg-white/80">
             <div className="p-6">
               <h3 className="text-xl font-semibold mb-4 text-center">「ジムがひしめき合う時代」</h3>
-              <p className="text-center mb-4 text-gray-600">多くの方がジム選びの迷子になっています！</p>
-              <div className="text-center mb-4 text-gray-600">
-                <p>何を基準に選んだらいいんだろう。。。</p>
-                <p>どんなことをしてるんだろう。。。</p>
-              </div>
+              <p className="text-center mb-4 text-gray-600">ジムに行く、ではなく生活の一部にジムがある環境を作りたい</p>
               <p className="text-center font-semibold text-blue-600">
                 丁寧にヒアリングさせて頂きます。<br />
                 まずはお気軽にお問い合わせ下さい！
